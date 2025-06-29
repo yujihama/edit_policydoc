@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import { EmbeddingService } from './EmbeddingService.js';
-import { GenerateContentRequest, GenerateContentResponse, AIInteraction } from '../../shared/types/index.js';
+import { GenerateContentRequest, GenerateContentResponse, AIInteraction } from '@/shared/types';
 import { Database } from '../models/Database.js';
 
 export class AIService {
