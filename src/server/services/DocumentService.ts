@@ -1,6 +1,6 @@
 import { Database } from '../models/Database.js';
 import { EmbeddingService } from './EmbeddingService.js';
-import { Document, CreateDocumentRequest, UpdateDocumentRequest } from '../../shared/types/index.js';
+import { Document, CreateDocumentRequest, UpdateDocumentRequest } from '@/shared/types';
 
 interface GetDocumentsOptions {
   search?: string;

@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import { Database } from '../models/Database.js';
-import { SimilarSection } from '../../shared/types/index.js';
+import { SimilarSection } from '@/shared/types';
 
 interface DocumentChunk {
   id: string;
